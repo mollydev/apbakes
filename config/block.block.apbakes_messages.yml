@@ -1,0 +1,22 @@
+uuid: 63a4a041-c98c-4566-bb97-ddeb7a247d82
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apbakes
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: apbakes_messages
+theme: apbakes
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

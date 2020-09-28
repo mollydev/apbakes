@@ -1,0 +1,22 @@
+uuid: 1d38888c-2139-454f-b3e5-ae133f796e0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - apbakes
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: apbakes_help
+theme: apbakes
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
