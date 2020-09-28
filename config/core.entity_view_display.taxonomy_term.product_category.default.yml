@@ -1,0 +1,13 @@
+uuid: ed5ac1a5-9fe3-45cb-aa93-15f1cb721018
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.product_category
+id: taxonomy_term.product_category.default
+targetEntityType: taxonomy_term
+bundle: product_category
+mode: default
+content: {  }
+hidden:
+  description: true
