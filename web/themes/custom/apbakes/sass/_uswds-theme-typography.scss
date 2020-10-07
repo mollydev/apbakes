@@ -67,7 +67,7 @@ unclassed elements:
 
 $theme-global-paragraph-styles: false;
 $theme-global-link-styles: false;
-$theme-global-content-styles: false;
+$theme-global-content-styles: true;
 
 /*
 ----------------------------------------
@@ -122,10 +122,10 @@ names to something more descriptive.
 */
 
 $theme-typeface-tokens: (
-  montserrat: (
-    display-name: "Montserrat",
+  alice: (
+    display-name: 'Alice',
     cap-height: 364px,
-  ),
+  )
 );
 
 /*
@@ -163,10 +163,10 @@ $theme-font-type-lang: false;
 $theme-font-type-mono: "roboto-mono";
 
 // sans-serif
-$theme-font-type-sans: "montserrat";
+$theme-font-type-sans: "public-sans";
 
 // serif
-$theme-font-type-serif: "merriweather";
+$theme-font-type-serif: "alice";
 
 /*
 ----------------------------------------
@@ -194,8 +194,8 @@ $theme-font-cond-custom-stack: false;
 $theme-font-icon-custom-stack: false;
 $theme-font-lang-custom-stack: false;
 $theme-font-mono-custom-stack: false;
-$theme-font-sans-custom-stack: true;
-$theme-font-serif-custom-stack: false;
+$theme-font-sans-custom-stack: false;
+$theme-font-serif-custom-stack: 'Merriweather';
 
 /*
 ----------------------------------------
@@ -255,38 +255,27 @@ $theme-font-serif-custom-src: (
 ----------------------------------------
 */
 
-$theme-font-sans-custom-src: (
-  dir: 'montserrat',
+$theme-font-serif-custom-src: (
+  dir: 'alice',
   roman: (
     100: false,
     200: false,
-    300: 'Montserrat-Light',
-    400: 'Montserrat-Regular',
+    300: false,
+    400: 'Alice-Regular',
     500: false,
     600: false,
-    700: 'Montserrat-Bold',
+    700: false,
     800: false,
     900: false,
-  ),
-  italic: (
-    100: false,
-    200: false,
-    300: 'Montserrat-LightItalic',
-    400: 'Montserrat-Italic',
-    500: false,
-    600: false,
-    700: 'Montserrat-BoldItalic',
-    800: false,
-    900: false,
-  ),
+  )
 );
 
 $theme-font-cond-custom-src: false;
 $theme-font-icon-custom-src: false;
 $theme-font-lang-custom-src: false;
 $theme-font-mono-custom-src: false;
-//$theme-font-sans-custom-src: false;
-$theme-font-serif-custom-src: false;
+$theme-font-sans-custom-src: false;
+//$theme-font-serif-custom-src: false;
 
 /*
 ----------------------------------------
