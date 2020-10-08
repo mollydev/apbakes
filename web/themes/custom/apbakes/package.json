@@ -1,0 +1,21 @@
+{
+  "name": "apbakes",
+  "version": "1.0.0",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.17",
+    "postcss-cli": "^6.1.3",
+    "postcss-csso": "^4.0.0",
+    "sass": "^1.26.11",
+    "uswds": "^2.9.0",
+    "uswds-gulp": "github:uswds/uswds-gulp",
+    "watch": "^1.0.2"
+  }
+}

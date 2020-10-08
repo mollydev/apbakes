@@ -1,0 +1,30 @@
+uuid: c9f7a3f7-660c-4656-bc1d-204196e1de9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.hero
+  module:
+    - system
+    - views
+  theme:
+    - apbakes
+id: views_hero_block
+theme: apbakes
+region: hero
+weight: 0
+provider: null
+plugin: 'views_block:hero-hero_block'
+settings:
+  id: 'views_block:hero-hero_block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

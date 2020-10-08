@@ -1,0 +1,29 @@
+uuid: eae76cde-51e9-4182-ba32-76f5cb92f6b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - apbakes
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: apbakes_page_title
+theme: apbakes
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

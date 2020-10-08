@@ -1,0 +1,23 @@
+uuid: f6a51891-250a-4180-9e11-1751c6591b7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_callout_theme
+    - node.type.hero_image
+  module:
+    - options
+id: node.hero_image.field_callout_theme
+field_name: field_callout_theme
+entity_type: node
+bundle: hero_image
+label: 'Callout Theme'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: callout--dark
+default_value_callback: ''
+settings: {  }
+field_type: list_string

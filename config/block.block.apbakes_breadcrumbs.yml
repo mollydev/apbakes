@@ -1,0 +1,22 @@
+uuid: d12c04b2-6e2b-47db-a0a9-44d3276340bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apbakes
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: apbakes_breadcrumbs
+theme: apbakes
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

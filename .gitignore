@@ -28,3 +28,4 @@
 .gitattributes
 .lando.yml
 .idea
+*.DS_STORE

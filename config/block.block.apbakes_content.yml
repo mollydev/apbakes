@@ -1,0 +1,22 @@
+uuid: e7e54f36-b09d-4788-b0d3-74e3ea2ff058
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - apbakes
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: apbakes_content
+theme: apbakes
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a45537b5195913cd1b48a3a7e98cf724",
+    "content-hash": "18a7efe678da53bae01ede460bcc921e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2038,6 +2038,59 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "time": "2020-09-16T11:22:21+00:00"
+        },
+        {
+            "name": "drupal/uswds",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/uswds.git",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/uswds-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "35c2e58496f33aa0bab1b10a784ebc7085d52d6d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1581966281",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Irisibk",
+                    "homepage": "https://www.drupal.org/user/1175178"
+                },
+                {
+                    "name": "JayDarnell",
+                    "homepage": "https://www.drupal.org/user/667566"
+                },
+                {
+                    "name": "brockfanning",
+                    "homepage": "https://www.drupal.org/user/709486"
+                }
+            ],
+            "description": "Drupal theme for the Beta v2.0 U.S. Web Design Standards library.",
+            "homepage": "https://www.drupal.org/project/uswds",
+            "support": {
+                "source": "http://cgit.drupalcode.org/uswds",
+                "issues": "https://www.drupal.org/project/issues/uswds?categories=All"
+            }
         },
         {
             "name": "drupal/webform",

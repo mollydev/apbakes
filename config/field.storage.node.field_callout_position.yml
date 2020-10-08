@@ -1,0 +1,27 @@
+uuid: f4212fe6-d873-4f33-ba88-bd10d56c36b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_callout_position
+field_name: field_callout_position
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: float-left
+      label: 'Left Side'
+    -
+      value: float-right
+      label: 'Right Side'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
