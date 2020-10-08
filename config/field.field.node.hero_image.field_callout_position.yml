@@ -1,0 +1,21 @@
+uuid: c65716c6-1f16-49a7-b517-55d4ff85e980
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_callout_position
+    - node.type.hero_image
+  module:
+    - options
+id: node.hero_image.field_callout_position
+field_name: field_callout_position
+entity_type: node
+bundle: hero_image
+label: 'Callout Position'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

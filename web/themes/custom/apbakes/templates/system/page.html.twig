@@ -6,6 +6,7 @@
  * CHANGELOG:
  * - remove government banner markup
  * - add custom code to display site branding. New code is more accessible.
+ * - remove section.usa-hero wrapper undernath hero region; this gets printed in hero image node template instead
  *
  */
 #}
@@ -62,9 +63,7 @@
 </header>
 
 {% if page.hero %}
-     <section class="usa-hero">
   {{ page.hero }}
-</section>
 {% endif %}
 
  <main class="usa-section">

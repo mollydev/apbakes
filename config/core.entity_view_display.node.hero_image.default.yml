@@ -1,0 +1,30 @@
+uuid: 83aba65d-9dab-4d67-a8c1-ebb61d0c05ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hero_image.body
+    - field.field.node.hero_image.field_callout_position
+    - field.field.node.hero_image.field_callout_theme
+    - field.field.node.hero_image.field_image
+    - node.type.hero_image
+  module:
+    - text
+    - user
+id: node.hero_image.default
+targetEntityType: node
+bundle: hero_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_callout_position: true
+  field_callout_theme: true
+  field_image: true
+  links: true

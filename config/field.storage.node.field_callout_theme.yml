@@ -1,0 +1,33 @@
+uuid: d44805a8-1f33-4915-82b3-d37accff7300
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_callout_theme
+field_name: field_callout_theme
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: hero__callout--dark
+      label: 'Dark Background, Light Text'
+    -
+      value: hero__callout--light
+      label: 'Light Background, Dark Text'
+    -
+      value: 'hero__callout--light hero__callout--no-bg'
+      label: 'No Background, Light Text'
+    -
+      value: 'hero__callout--dark hero__callout--no-bg'
+      label: 'No Background, Dark Text'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
