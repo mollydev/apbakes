@@ -9,7 +9,7 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "postcss": "^7.0.17",
     "postcss-cli": "^6.1.3",
     "postcss-csso": "^4.0.0",
